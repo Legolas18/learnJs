@@ -1,3 +1,4 @@
+console.log("Hello")
 function addEvent(elm, evType, fn, useCapture) {
     if (elm.addEventListener) {
             elm.addEventListener(evType, fn, useCapture);
